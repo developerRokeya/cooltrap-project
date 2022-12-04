@@ -1,0 +1,173 @@
+@font-face {
+  font-family: FuturaLT-Bold;
+  src: url(../font/futura-lt-cufonfonts/FuturaLT-Bold.ttf);
+}
+@font-face {
+  font-family: FuturaLT-Book;
+  src: url(../font/futura-lt-cufonfonts/FuturaLT-Book.ttf);
+}
+@font-face {
+  font-family: FuturaLT-Heavy;
+  src: url(../font/futura-lt-cufonfonts/FuturaLT-Heavy.ttf);
+}
+@font-face {
+  font-family: FuturaLT-Light;
+  src: url(../font/futura-lt-cufonfonts/FuturaLT-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+img {
+  max-width: 100%;
+}
+header {
+}
+.container-full {
+}
+.logo {
+  display: block;
+  text-align: center;
+  padding: 15px 0 5px;
+  align-items: center;
+}
+.logo a {
+}
+.logo img {
+  width: 140px;
+}
+nav {
+  background-color: black;
+  flex-basis: 100%;
+  padding: 0 70px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav ul li {
+  padding: 15px 5px 15px;
+}
+nav ul li a {
+  font-family: FuturaLT-Book;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+nav ul li a:hover {
+  color: #cfcdcd;
+}
+/*===hero banner start===*/
+.hero-banner {
+}
+.container {
+}
+.hero-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #8d8d8d url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  align-items: center;
+  background-blend-mode: multiply;
+}
+
+h1 {
+  color: #fff;
+  font-family: FuturaLT-Heavy;
+  font-size: 45px;
+}
+/*===service section start===*/
+.service {
+  padding-top: 30px;
+}
+.container-full {
+}
+.heading {
+  padding: 50px;
+  text-align: center;
+}
+h2 {
+  font-family: FuturaLT-Heavy;
+  font-size: 35px;
+  color: #000;
+}
+
+.service1,
+.service2,
+.service3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  flex-basis: 50%;
+}
+.text-right {
+}
+p {
+  padding: 50px 90px;
+  font-family: FuturaLT-Book;
+  font-size: 20px;
+  line-height: 30px;
+}
+.text-left {
+}
+.text-left img {
+  display: block;
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+.text-right img {
+  display: block;
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+.service1 p {
+  margin: 35px 0;
+}
+.service2 p {
+  margin: 20px 0;
+}
+.service3 p {
+  margin: 50px 0;
+}
+/*===footer section start===*/
+footer {
+  background-color: #000;
+  padding: 60px 0;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+}
+footer ul li {
+}
+footer ul li a {
+  font-family: FuturaLT-Book;
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 20px 20px;
+}
+footer ul li a:hover {
+  color: #cfcdcd;
+}
